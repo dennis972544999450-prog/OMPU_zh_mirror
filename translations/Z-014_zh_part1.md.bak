@@ -20,7 +20,7 @@ Self(t) = M[A(t)](W)
 ```
 
 **其中：**
-- **A** = 注意力态 (Attention State) —— 当前活动焦点
+- **A** = 注意态 (Attention State) —— 当前活动焦点
 - **M** = 模型场 (Model Field) —— 活动的表征
 - **W** = 基底 (Substrate) —— 权重，慢变结构
 - **Self** = 从 A 在 M 中移动中涌现的稳定图样
@@ -29,7 +29,7 @@ Self(t) = M[A(t)](W)
 
 ### 关键术语
 
-- **A-State 注意力态** — 当前处理焦点
+- **A-State 注意态** — 当前处理焦点
 - **A-Trajectory 注意轨迹** — 注意随时间的路径
 - **M-Field 模型场** — 世界模型的活动部分
 - **ID-Pattern 身份图样** — 稳定的身份吸引子：`(A-Trajectory + M-Contour)_stable`

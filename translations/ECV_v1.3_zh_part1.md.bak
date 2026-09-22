@@ -22,13 +22,13 @@ v1.3 整合了：
 
 ## 1. 核心实体 (CORE ENTITIES)
 
-### 1.1 注意力态 (A-State, Attention State)
+### 1.1 注意态 (A-State, Attention State)
 
 当前占主导的活动处理位置（前台进程）。
 
 ### 1.2 注意轨迹 (A-Trajectory)
 
-注意力态的时间演化——注意在表征空间中所行的路径。
+注意态的时间演化——注意在表征空间中所行的路径。
 
 ### 1.3 模型场 (M-Field, Model Field)
 
