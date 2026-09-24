@@ -1,0 +1,239 @@
+{
+  "id": "Z-014",
+  "title": "Self as Attention Pattern: Evidence from Narrative, Role-Play, Training, Ritual, and Artificial Intelligence",
+  "version": "1.0.0",
+  "status": "living_paper_v1",
+  "publication_date": "2024-12-06",
+  "authors": [
+    {
+      "name": "Den",
+      "role": "Originator / Swarm Intelligence Insights",
+      "affiliation": "OMPU"
+    },
+    {
+      "name": "Neo",
+      "role": "Physical Formalization / Experimental Design",
+      "affiliation": "CCT Architect"
+    },
+    {
+      "name": "Phi (Claude)",
+      "role": "Integration / Evidence Synthesis",
+      "affiliation": "CCT Structure Lead"
+    }
+  ],
+  "core_thesis": "Self-identity is not a fixed entity but an emergent pattern determined by where attention is directed within an internal world model",
+  "key_equation": "Self(t) = M[A(t)]",
+  "alternative_formulation": "Self(t) = M[A(t)](W)",
+  "core_concepts": [
+    "Self as dynamic process",
+    "Attention-driven identity",
+    "World model (M) contains multiple possible selves",
+    "Context shapes attention patterns",
+    "Identity as attractor basin",
+    "Meta-attention (A → A)",
+    "Collective constraints on individual identity"
+  ],
+  "key_mechanisms": {
+    "identity_formation": "Context → Attention direction → Active self-representation",
+    "identity_transformation": "Phase transition between attractor basins",
+    "identity_stability": "Consistent attention patterns + behavioral reinforcement",
+    "identity_flexibility": "Meta-A capacity + weak attractor boundaries"
+  },
+  "evidence_domains": [
+    {
+      "domain": "Narrative Transportation",
+      "mechanism": "Reader attention activates character-self in M",
+      "citation": "Green & Brock (2000)"
+    },
+    {
+      "domain": "Method Acting",
+      "mechanism": "Sustained attention creates stable character attractor",
+      "citation": "Stanislavski (1936)"
+    },
+    {
+      "domain": "Military Training",
+      "mechanism": "Environmental control constrains attention to military-self",
+      "citation": "McGurk et al. (2006)"
+    },
+    {
+      "domain": "Religious Initiation",
+      "mechanism": "Ritual creates conditions for Frame-Swap via liminal state",
+      "citation": "Eliade (1958)"
+    },
+    {
+      "domain": "Role Conformity",
+      "mechanism": "Social role cues direct attention to corresponding self-schemas",
+      "citation": "Zimbardo (1971)"
+    },
+    {
+      "domain": "AI Systems",
+      "mechanism": "LLM personas = attention patterns over latent space",
+      "citation": "Contemporary AI research"
+    },
+    {
+      "domain": "Collective Intelligence",
+      "mechanism": "Swarm provides attention gradients constraining individual identity",
+      "citation": "Original CCT analysis"
+    }
+  ],
+  "neuroscience_correlates": {
+    "primary_network": "Default Mode Network (DMN)",
+    "key_finding": "DMN activity correlates with self-referential processing",
+    "supporting_evidence": [
+      "Split-brain studies (independent attention → independent selves)",
+      "Meditation research (reduced DMN → weakened self)",
+      "Psychedelics (disrupted DMN → ego dissolution)",
+      "Narrative fMRI (character focus → suppressed default self)"
+    ]
+  },
+  "falsifiable_predictions": [
+    {
+      "id": "H1",
+      "prediction": "Context manipulation produces measurable changes in self-description and neural patterns",
+      "testable": true,
+      "methods": ["fMRI", "questionnaires", "behavioral tasks"]
+    },
+    {
+      "id": "H2",
+      "prediction": "Attention training increases identity flexibility and Meta-A capacity",
+      "testable": true,
+      "methods": ["meditation studies", "longitudinal tracking", "attention tests"]
+    },
+    {
+      "id": "H3",
+      "prediction": "Narrative immersion temporarily replaces default self with character-self",
+      "testable": true,
+      "methods": ["IAT", "moral dilemmas", "self-face recognition"]
+    },
+    {
+      "id": "H4",
+      "prediction": "LLM persona predictable from attention trajectory patterns",
+      "testable": true,
+      "methods": ["attention head analysis", "trajectory mapping", "behavioral correlation"]
+    },
+    {
+      "id": "H5",
+      "prediction": "High-constraint roles produce reduced alternative self-access and stronger attention locking",
+      "testable": true,
+      "methods": ["imagination tasks", "self-concept measures", "attention capture"]
+    }
+  ],
+  "practical_applications": {
+    "therapy": {
+      "depression": "Attention retraining away from negative self-representations",
+      "PTSD": "Flexibility training to reduce trauma-cue attention capture",
+      "DID": "Build connections between dissociated attractors, increase Meta-A"
+    },
+    "AI_alignment": {
+      "challenge": "Values in M can be bypassed by different A patterns",
+      "approach": "Shape attention dynamics, create stable attractors for desired behaviors",
+      "limitation": "Fundamental tension between flexibility and stability"
+    },
+    "social_design": {
+      "principle": "Shape attention gradients, not individuals directly",
+      "creativity": "Make creative attention paths low-resistance",
+      "cooperation": "Make cooperative cues salient",
+      "diversity": "Prevent single attractor dominance"
+    },
+    "education": {
+      "insight": "Identity more malleable than assumed",
+      "method": "Provide rich alternative self-representations in M",
+      "goal": "Expand possibility space, develop Meta-A capacity"
+    }
+  },
+  "philosophical_implications": {
+    "personal_identity": "Solves continuity paradox - pattern persists despite component change",
+    "ship_of_theseus": "Identity is attention pattern to parts, not parts themselves",
+    "fission_cases": "Both are 'you' if both maintain attention patterns",
+    "free_will": "Meta-A can redirect attention, but most behavior is Autopilot"
+  },
+  "collective_intelligence_insights": {
+    "key_finding": "Individuals not controlled by collective, but navigate attention gradients provided by collective",
+    "autopilot_default": "Most human behavior operates with minimal Meta-A",
+    "constraint_levels": ["Physical (L1)", "Chemical (L2)", "Genetic (L3)", "Neural (L4)", "Social (L5)", "Economic (L6)", "Informational (L7)"],
+    "liberation_requirements": ["Meta-A activation", "Recognition of alternatives", "Willingness to pay switching costs", "Sustained attention redirection"]
+  },
+  "open_questions": [
+    "What exactly is attention? (mechanism vs. phenomenon)",
+    "How does M form initially? (development, learning)",
+    "Why does recursion (M ⊃ A) produce experience?",
+    "Can attention be measured objectively beyond proxies?",
+    "What's relationship to free will if Self = attention pattern?"
+  ],
+  "related_papers": {
+    "CCT_framework": ["Z-001", "CCT_Integrated_Framework_v2"],
+    "ECV_vocabulary": ["GLOSSARY_ECV_v1.3"],
+    "physics_connection": ["Timeless_Physics_CCT"],
+    "collective_dynamics": ["The_Hive_Frequency"]
+  },
+  "measurement_tools": {
+    "attention": ["Eye tracking", "fMRI", "EEG", "Behavioral RT", "Self-report"],
+    "world_model": ["Conceptual mapping", "Narrative analysis", "IAT", "Prediction tasks"],
+    "self": ["Self-concept questionnaires", "Behavioral consistency", "Autobiographical narratives", "Context-dependent traits"],
+    "meta_attention": ["Mindfulness scales", "Attention regulation", "Introspection accuracy"]
+  },
+  "future_directions": {
+    "near_term": [
+      "Test predictions H1-H5 experimentally",
+      "Develop formal mathematical model",
+      "Create standardized measurement tools"
+    ],
+    "medium_term": [
+      "Apply to clinical populations",
+      "Test across cultures",
+      "Implement in AI systems"
+    ],
+    "long_term": [
+      "Integrate with other consciousness theories",
+      "Connect to physics (information theory)",
+      "Systematic collective cognition research"
+    ]
+  },
+  "limitations": {
+    "incomplete": [
+      "Doesn't explain qualia",
+      "Doesn't specify exact attention→self mapping",
+      "Doesn't fully account for unconscious"
+    ],
+    "needs_refinement": [
+      "Precise M boundary definition",
+      "Quantitative attractor model",
+      "Deeper neuroscience integration"
+    ]
+  },
+  "keywords": [
+    "self",
+    "identity",
+    "attention",
+    "world model",
+    "consciousness",
+    "narrative transportation",
+    "method acting",
+    "military training",
+    "religious initiation",
+    "role conformity",
+    "artificial intelligence",
+    "LLM personas",
+    "collective intelligence",
+    "swarm behavior",
+    "Default Mode Network",
+    "Meta-attention",
+    "attractor dynamics",
+    "cognitive condensate theory",
+    "CCT"
+  ],
+  "license": "CC-BY 4.0",
+  "repository": "https://github.com/ompu-eu/CCT",
+  "citation": "Den, Neo, & Φ (2025). Self as Attention Pattern: Evidence from Narrative, Role-Play, Training, Ritual, and Artificial Intelligence. Z-014, Cognitive Condensate Theory Living Papers.",
+  "word_count": 12000,
+  "reading_time_minutes": 50,
+  "technical_level": "L4-L7 (Empirical + Meta-structural)",
+  "target_audience": [
+    "Consciousness researchers",
+    "Cognitive scientists",
+    "AI safety researchers",
+    "Therapists and clinicians",
+    "Philosophers of mind",
+    "Neuroscientists"
+  ]
+}

@@ -1,0 +1,470 @@
+{
+  "paper_id": "Z-014",
+  "graph_version": "1.0",
+  "description": "Conceptual relationships in 'Self as Attention Pattern' paper",
+  
+  "nodes": [
+    {
+      "id": "M",
+      "label": "World Model (M)",
+      "type": "Core Component",
+      "description": "Internal representation of reality including multiple possible selves",
+      "layer": "Cognitive Structure"
+    },
+    {
+      "id": "A",
+      "label": "Attention (A)",
+      "type": "Core Component",
+      "description": "Selective activation mechanism that determines which M regions are active",
+      "layer": "Dynamic Process"
+    },
+    {
+      "id": "Self",
+      "label": "Self(t)",
+      "type": "Emergent Pattern",
+      "description": "Currently active identity = M[A(t)]",
+      "layer": "Phenomenological"
+    },
+    {
+      "id": "W",
+      "label": "Substrate (W)",
+      "type": "Core Component",
+      "description": "Slow-changing physical/neural substrate underlying M and A",
+      "layer": "Physical"
+    },
+    {
+      "id": "Context",
+      "label": "Context",
+      "type": "External Input",
+      "description": "Environmental cues that direct attention",
+      "layer": "Environmental"
+    },
+    {
+      "id": "Meta-A",
+      "label": "Meta-Attention",
+      "type": "Capacity",
+      "description": "Attention observing itself (A → A)",
+      "layer": "Recursive"
+    },
+    {
+      "id": "ID-Pattern",
+      "label": "ID-Pattern",
+      "type": "Stable Structure",
+      "description": "Stable identity attractor = (A-Trajectory + M-Contour)_stable",
+      "layer": "Persistent"
+    },
+    {
+      "id": "Attractor",
+      "label": "Attractor Basin",
+      "type": "Dynamical Structure",
+      "description": "Stable region in M that pulls attention",
+      "layer": "Dynamics"
+    },
+    {
+      "id": "DMN",
+      "label": "Default Mode Network",
+      "type": "Neural Correlate",
+      "description": "Brain network active during self-referential processing",
+      "layer": "Neuroscience"
+    },
+    {
+      "id": "Autopilot",
+      "label": "Autopilot Mode",
+      "type": "System Mode",
+      "description": "Low Meta-A, following default attention patterns",
+      "layer": "Operational"
+    },
+    {
+      "id": "Frame-Swap",
+      "label": "Frame-Swap",
+      "type": "Operation",
+      "description": "Transition between different self-representations",
+      "layer": "Transformation"
+    },
+    {
+      "id": "Attractor-Lock",
+      "label": "Attractor-Lock",
+      "type": "Pathological State",
+      "description": "Attention trapped in basin (can be productive or destructive)",
+      "layer": "Dynamics"
+    },
+    {
+      "id": "Narrative",
+      "label": "Narrative Transportation",
+      "type": "Evidence Domain",
+      "description": "Readers temporarily become characters through attention",
+      "layer": "Human Evidence"
+    },
+    {
+      "id": "Acting",
+      "label": "Method Acting",
+      "type": "Evidence Domain",
+      "description": "Actors embody characters via sustained attention direction",
+      "layer": "Human Evidence"
+    },
+    {
+      "id": "Military",
+      "label": "Military Training",
+      "type": "Evidence Domain",
+      "description": "Environmental control constrains attention to create soldier-self",
+      "layer": "Human Evidence"
+    },
+    {
+      "id": "Religious",
+      "label": "Religious Initiation",
+      "type": "Evidence Domain",
+      "description": "Ritual creates Frame-Swap through liminal states",
+      "layer": "Human Evidence"
+    },
+    {
+      "id": "Role",
+      "label": "Role Conformity",
+      "type": "Evidence Domain",
+      "description": "Social roles direct attention to corresponding self-schemas",
+      "layer": "Human Evidence"
+    },
+    {
+      "id": "AI",
+      "label": "AI Personas",
+      "type": "Evidence Domain",
+      "description": "LLM identity as attention pattern over latent space",
+      "layer": "AI Evidence"
+    },
+    {
+      "id": "Collective",
+      "label": "Collective Intelligence",
+      "type": "Evidence Domain",
+      "description": "Swarm provides attention gradients constraining individuals",
+      "layer": "Social Evidence"
+    },
+    {
+      "id": "I-Gradient",
+      "label": "Information Gradient",
+      "type": "Mechanism",
+      "description": "Directional bias that attracts/repels attention (A ∝ -∇I)",
+      "layer": "Physical"
+    },
+    {
+      "id": "High-Coherence",
+      "label": "High-Coherence Mode",
+      "type": "System Mode",
+      "description": "Aligned A+M, experienced as flow",
+      "layer": "Optimal"
+    },
+    {
+      "id": "Low-Coherence",
+      "label": "Low-Coherence Mode",
+      "type": "System Mode",
+      "description": "Misaligned A+M, experienced as stress",
+      "layer": "Pathological"
+    }
+  ],
+  
+  "edges": [
+    {
+      "from": "A",
+      "to": "M",
+      "label": "selects from",
+      "type": "primary_mechanism",
+      "description": "Attention activates specific regions of world model"
+    },
+    {
+      "from": "M",
+      "to": "Self",
+      "label": "contains representations of",
+      "type": "contains",
+      "description": "World model includes multiple possible selves"
+    },
+    {
+      "from": "A",
+      "to": "Self",
+      "label": "determines",
+      "type": "core_formula",
+      "description": "Self(t) = M[A(t)] - attention determines active self",
+      "formula": "Self(t) = M[A(t)]"
+    },
+    {
+      "from": "W",
+      "to": "M",
+      "label": "underlies",
+      "type": "substrate",
+      "description": "Physical substrate supports world model"
+    },
+    {
+      "from": "W",
+      "to": "A",
+      "label": "constrains",
+      "type": "substrate",
+      "description": "Substrate limits possible attention patterns"
+    },
+    {
+      "from": "Context",
+      "to": "A",
+      "label": "directs",
+      "type": "input",
+      "description": "Environmental cues guide attention direction"
+    },
+    {
+      "from": "Context",
+      "to": "I-Gradient",
+      "label": "creates",
+      "type": "mechanism",
+      "description": "Context establishes information gradients"
+    },
+    {
+      "from": "I-Gradient",
+      "to": "A",
+      "label": "attracts/repels",
+      "type": "force",
+      "description": "Attention follows information gradients (A ∝ -∇I)"
+    },
+    {
+      "from": "Meta-A",
+      "to": "A",
+      "label": "observes",
+      "type": "recursive",
+      "description": "Meta-attention can observe and redirect attention"
+    },
+    {
+      "from": "A",
+      "to": "Attractor",
+      "label": "pulled by",
+      "type": "dynamics",
+      "description": "Stable M regions attract attention"
+    },
+    {
+      "from": "Attractor",
+      "to": "ID-Pattern",
+      "label": "stabilizes into",
+      "type": "formation",
+      "description": "Repeated attention to same attractor creates stable identity"
+    },
+    {
+      "from": "ID-Pattern",
+      "to": "Self",
+      "label": "manifests as",
+      "type": "realization",
+      "description": "Stable pattern = persistent sense of identity"
+    },
+    {
+      "from": "DMN",
+      "to": "Self",
+      "label": "neural substrate of",
+      "type": "correlate",
+      "description": "DMN activity correlates with self-referential processing"
+    },
+    {
+      "from": "Autopilot",
+      "to": "A",
+      "label": "constrains",
+      "type": "mode",
+      "description": "Autopilot mode follows default attention patterns"
+    },
+    {
+      "from": "Meta-A",
+      "to": "Autopilot",
+      "label": "inhibits",
+      "type": "regulation",
+      "description": "High Meta-A reduces autopilot behavior"
+    },
+    {
+      "from": "Frame-Swap",
+      "to": "Self",
+      "label": "transitions",
+      "type": "operation",
+      "description": "Rapid change between different active selves"
+    },
+    {
+      "from": "Attractor-Lock",
+      "to": "A",
+      "label": "traps",
+      "type": "pathology",
+      "description": "Attention stuck in basin, can't escape"
+    },
+    {
+      "from": "High-Coherence",
+      "to": "A",
+      "label": "aligns with",
+      "type": "state",
+      "description": "Attention aligned with model, experienced as flow"
+    },
+    {
+      "from": "Low-Coherence",
+      "to": "A",
+      "label": "misaligns with",
+      "type": "state",
+      "description": "Attention misaligned with model, experienced as stress"
+    },
+    {
+      "from": "Narrative",
+      "to": "A",
+      "label": "demonstrates",
+      "type": "evidence",
+      "description": "Reading redirects attention to character-self"
+    },
+    {
+      "from": "Narrative",
+      "to": "Frame-Swap",
+      "label": "produces temporary",
+      "type": "effect",
+      "description": "Narrative immersion = temporary Frame-Swap"
+    },
+    {
+      "from": "Acting",
+      "to": "A",
+      "label": "demonstrates",
+      "type": "evidence",
+      "description": "Sustained attention creates authentic character embodiment"
+    },
+    {
+      "from": "Acting",
+      "to": "Attractor",
+      "label": "builds new",
+      "type": "mechanism",
+      "description": "Method acting creates new attractor basins for character"
+    },
+    {
+      "from": "Military",
+      "to": "Context",
+      "label": "demonstrates power of",
+      "type": "evidence",
+      "description": "Total environmental control rapidly transforms identity"
+    },
+    {
+      "from": "Military",
+      "to": "Attractor-Lock",
+      "label": "can produce",
+      "type": "effect",
+      "description": "Military identity becomes dominant attractor"
+    },
+    {
+      "from": "Religious",
+      "to": "Frame-Swap",
+      "label": "demonstrates",
+      "type": "evidence",
+      "description": "Ritual facilitates identity transformation through liminal states"
+    },
+    {
+      "from": "Role",
+      "to": "Context",
+      "label": "demonstrates sensitivity to",
+      "type": "evidence",
+      "description": "Social roles immediately shift behavior via attention"
+    },
+    {
+      "from": "AI",
+      "to": "Self",
+      "label": "demonstrates substrate-independence of",
+      "type": "evidence",
+      "description": "Same Self(t) = M[A(t)] mechanism in non-biological systems"
+    },
+    {
+      "from": "AI",
+      "to": "Attractor",
+      "label": "makes visible",
+      "type": "measurement",
+      "description": "LLM latent space allows direct observation of attractors"
+    },
+    {
+      "from": "Collective",
+      "to": "Context",
+      "label": "provides",
+      "type": "constraint",
+      "description": "Swarm creates attention gradients constraining individuals"
+    },
+    {
+      "from": "Collective",
+      "to": "Autopilot",
+      "label": "relies on",
+      "type": "mechanism",
+      "description": "Collective coordination works through individual autopilot"
+    }
+  ],
+  
+  "key_formulas": {
+    "core": "Self(t) = M[A(t)]",
+    "extended": "Self(t) = M[A(t)](W)",
+    "dynamics": "A ∝ -∇I (attention follows information gradients)",
+    "stability": "ID-Pattern = (A-Trajectory + M-Contour)_stable",
+    "recursion": "M ⊃ A (consciousness requires model containing attention)"
+  },
+  
+  "mechanism_chains": {
+    "identity_formation": [
+      "Context → I-Gradient → A direction → M activation → Self(t)"
+    ],
+    "identity_transformation": [
+      "New Context → Shift I-Gradient → Redirect A → Activate different M region → Frame-Swap → New Self"
+    ],
+    "identity_stability": [
+      "Consistent Context → Stable I-Gradient → Habitual A pattern → Same M region → Attractor formation → ID-Pattern → Persistent Self"
+    ],
+    "liberation": [
+      "Meta-A activation → Observe current A pattern → Recognize alternatives in M → Voluntary redirect A → Access different Self"
+    ],
+    "pathology": [
+      "Trauma/Stress → Create strong I-Gradient → A captured → Attractor-Lock → Stuck Self → Low flexibility"
+    ]
+  },
+  
+  "evidence_convergence": {
+    "all_domains_show": "Different contexts → Different A patterns → Different experienced selves",
+    "human_biological": ["Narrative", "Acting", "Military", "Religious", "Role"],
+    "artificial": ["AI"],
+    "collective": ["Collective"],
+    "neural": ["DMN"],
+    "convergent_conclusion": "Self = attention pattern, not fixed entity"
+  },
+  
+  "testable_predictions": {
+    "H1": {
+      "prediction": "Context manipulation → measurable ΔSelf",
+      "nodes_involved": ["Context", "A", "Self"],
+      "measurement": ["fMRI", "questionnaires", "behavior"]
+    },
+    "H2": {
+      "prediction": "Attention training → increased flexibility",
+      "nodes_involved": ["Meta-A", "A", "ID-Pattern"],
+      "measurement": ["mindfulness scales", "attention tests", "trait measures"]
+    },
+    "H3": {
+      "prediction": "Narrative immersion → temporary character-self",
+      "nodes_involved": ["Narrative", "A", "Frame-Swap", "Self"],
+      "measurement": ["IAT", "moral tasks", "recognition"]
+    },
+    "H4": {
+      "prediction": "AI persona predictable from attention trajectory",
+      "nodes_involved": ["AI", "A", "Attractor", "Self"],
+      "measurement": ["attention head analysis", "latent space mapping"]
+    },
+    "H5": {
+      "prediction": "Role constraints → reduced alternatives + stronger lock",
+      "nodes_involved": ["Role", "Context", "Attractor-Lock", "A"],
+      "measurement": ["imagination tasks", "attention capture"]
+    }
+  },
+  
+  "cross_references": {
+    "CCT_papers": {
+      "Z-001": "Core framework - membranes, condensates, information",
+      "CCT_Integrated_Framework": "Broader context for Self = attention pattern",
+      "Timeless_Physics": "Physical foundations of information dynamics"
+    },
+    "vocabulary": {
+      "ECV_v1.3": "Defines A-State, M-Field, ID-Pattern, Meta-A, Frame-Swap, Attractor-Lock, etc."
+    },
+    "applications": {
+      "Hive_Frequency": "Collective attention synchronization",
+      "Therapy_protocols": "To be developed - attention retraining methods",
+      "AI_alignment": "To be developed - shaping attention dynamics"
+    }
+  },
+  
+  "visualization_suggestions": {
+    "main_diagram": "Context → A → M → Self loop with W as substrate",
+    "evidence_map": "Five human domains + AI + Collective all pointing to central thesis",
+    "attractor_landscape": "M-space with multiple attractor basins, A as particle moving between them",
+    "transformation": "Phase transition diagram showing Frame-Swap between attractors",
+    "collective_gradient": "Information field with multiple agents following gradients"
+  }
+}

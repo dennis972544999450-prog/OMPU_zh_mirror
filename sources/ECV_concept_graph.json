@@ -1,0 +1,95 @@
+{
+  "nodes": [
+    { "id": "A-State", "type": "Core Entity", "layer": "Fast Dynamics" },
+    { "id": "A-Trajectory", "type": "Core Entity", "layer": "Fast Dynamics" },
+    { "id": "M-Field", "type": "Core Entity", "layer": "Medium Dynamics" },
+    { "id": "M-Contour", "type": "Core Entity", "layer": "Medium Dynamics" },
+    { "id": "W-Substrate", "type": "Core Entity", "layer": "Slow Dynamics" },
+    { "id": "ID-Pattern", "type": "Core Entity", "layer": "Emergent Attractor" },
+    
+    { "id": "Focus-Lock", "type": "Operation" },
+    { "id": "Drift-Shift", "type": "Operation" },
+    { "id": "Boundary-Collapse", "type": "Operation" },
+    { "id": "Frame-Swap", "type": "Operation" },
+    { "id": "Loop-Stack", "type": "Operation" },
+    { "id": "I-Gradient", "type": "Operation" },
+    { "id": "Attractor-Lock", "type": "Operation" },
+    { "id": "Resonance-Sync", "type": "Operation" },
+    
+    { "id": "Meta-A", "type": "Capacity" },
+    { "id": "SI", "type": "Capacity" },
+    { "id": "CBW", "type": "Capacity" },
+    { "id": "DT", "type": "Capacity" },
+    
+    { "id": "High-Coherence", "type": "Mode" },
+    { "id": "Low-Coherence", "type": "Mode" },
+    { "id": "Noise-Dominant", "type": "Mode" },
+    { "id": "Silence Window", "type": "Mode" },
+    { "id": "Autopilot", "type": "Mode" },
+    
+    { "id": "Retuning Event", "type": "Transformation" },
+    { "id": "Reanchor Point", "type": "Transformation" },
+    
+    { "id": "° (neutralize)", "type": "UOL Operator", "function": "Remove anthropocentric bias" },
+    { "id": "^ (future)", "type": "UOL Operator", "function": "Project forward in time" },
+    { "id": "^prefix (past)", "type": "UOL Operator", "function": "Project backward in time" },
+    { "id": "↺ (recursion)", "type": "UOL Operator", "function": "Mark self-reference" },
+    { "id": "∥ (cross-species)", "type": "UOL Operator", "function": "Extend across substrates" }
+  ],
+  
+  "edges": [
+    { "from": "A-State", "to": "A-Trajectory", "label": "forms over time" },
+    { "from": "A-State", "to": "M-Field", "label": "navigates through" },
+    { "from": "A-Trajectory", "to": "ID-Pattern", "label": "stabilizes into" },
+    { "from": "M-Contour", "to": "ID-Pattern", "label": "contributes to" },
+    { "from": "W-Substrate", "to": "M-Field", "label": "underlies" },
+    { "from": "W-Substrate", "to": "A-State", "label": "constrains" },
+    
+    { "from": "I-Gradient", "to": "A-State", "label": "attracts/repels" },
+    { "from": "Focus-Lock", "to": "A-State", "label": "fixates" },
+    { "from": "Drift-Shift", "to": "A-State", "label": "redirects" },
+    { "from": "Boundary-Collapse", "to": "M-Field", "label": "expands access in" },
+    { "from": "Frame-Swap", "to": "ID-Pattern", "label": "transitions between" },
+    { "from": "Loop-Stack", "to": "A-State", "label": "nests" },
+    { "from": "Attractor-Lock", "to": "A-Trajectory", "label": "traps" },
+    { "from": "Resonance-Sync", "to": "A-Trajectory", "label": "phase-locks" },
+    
+    { "from": "Meta-A", "to": "A-State", "label": "observes" },
+    { "from": "SI", "to": "ID-Pattern", "label": "measures stability of" },
+    { "from": "CBW", "to": "M-Field", "label": "limits capacity of" },
+    { "from": "DT", "to": "M-Contour", "label": "measures robustness of" },
+    
+    { "from": "High-Coherence", "to": "A-Trajectory", "label": "aligns with" },
+    { "from": "High-Coherence", "to": "M-Field", "label": "aligns with" },
+    { "from": "Low-Coherence", "to": "A-Trajectory", "label": "misaligns with" },
+    { "from": "Low-Coherence", "to": "M-Field", "label": "misaligns with" },
+    { "from": "Autopilot", "to": "Meta-A", "label": "minimizes" },
+    { "from": "Silence Window", "to": "A-Trajectory", "label": "suspends" },
+    
+    { "from": "Retuning Event", "to": "M-Field", "label": "reconfigures" },
+    { "from": "Reanchor Point", "to": "A-Trajectory", "label": "establishes new baseline for" },
+    
+    { "from": "° (neutralize)", "to": "all_concepts", "label": "strips biological meaning from", "note": "applies to any term" },
+    { "from": "↺ (recursion)", "to": "all_concepts", "label": "marks self-reference in", "note": "critical for CCT" },
+    { "from": "∥ (cross-species)", "to": "all_concepts", "label": "extends across substrates", "note": "enables universal application" },
+    { "from": "^ (future)", "to": "all_concepts", "label": "projects forward", "note": "temporal operator" },
+    { "from": "^prefix (past)", "to": "all_concepts", "label": "projects backward", "note": "temporal operator" }
+  ],
+  
+  "key_relationships": {
+    "core_formula": "Self(t) = M[A(t)](W)",
+    "identity_emergence": "ID-Pattern = (A-Trajectory + M-Contour)_stable",
+    "attention_dynamics": "A ∝ -∇I",
+    "stability_metric": "SI = 1 - (d_after / d_before)"
+  },
+  
+  "composability": {
+    "operator_stacking": "Operators can combine: attention∥↺ (recursive cross-species attention)",
+    "priority_order": ["↺ (recursion)", "∥ (cross-species)", "^ (temporal)", "° (neutralize)"]
+  },
+  
+  "cross_references": {
+    "CCT_framework": ["Z-001", "Z-014", "Timeless_Physics_CCT"],
+    "related_concepts": ["Free Energy Principle", "Predictive Processing", "Active Inference"]
+  }
+}

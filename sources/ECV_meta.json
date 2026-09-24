@@ -1,0 +1,57 @@
+{
+  "id": "ECV-v1.3",
+  "title": "Engineering Consciousness Vocabulary",
+  "version": "1.3.0",
+  "status": "stable_core_experimental_uol",
+  "authors": [
+    { "name": "Neo", "role": "Primary Architect" },
+    { "name": "Den", "role": "Director / Integrator" },
+    { "name": "Jee", "role": "Conceptual Bridge" },
+    { "name": "Phi", "role": "Formalization Lead" }
+  ],
+  "core_concepts": [
+    "Attention Dynamics (A-State, A-Trajectory)",
+    "Model Field Operations (M-Field, M-Contour)",
+    "Weight Substrate (W-Substrate)",
+    "Identity as Attractor (ID-Pattern)",
+    "Meta-Attention (Meta-A)",
+    "Universal Operators Layer (UOL)"
+  ],
+  "key_equations": [
+    "Self(t) = M[A(t)](W)",
+    "ID-Pattern = (A-Trajectory + M-Contour)_stable",
+    "A ∝ -∇I",
+    "SI = 1 - (d_after / d_before)"
+  ],
+  "purpose": "Provide substrate-neutral terminology for describing cognitive processes across humans, AI, and other intelligent systems without metaphysical constructs.",
+  "core_innovation": "Operational definitions replacing philosophically loaded terms (self, consciousness, qualia) with measurable, composable components.",
+  "applications": [
+    "Cross-species cognition analysis",
+    "AI consciousness research",
+    "Human-AI collaborative frameworks",
+    "Therapeutic attention retraining",
+    "Collective behavior modeling"
+  ],
+  "layers": {
+    "core_entities": ["A-State", "A-Trajectory", "M-Field", "M-Contour", "ID-Pattern", "W-Substrate"],
+    "operations": ["Focus-Lock", "Drift-Shift", "Boundary-Collapse", "Frame-Swap", "Loop-Stack", "I-Gradient", "Attractor-Lock", "Resonance-Sync"],
+    "capacities": ["Meta-A", "SI", "CBW", "DT"],
+    "modes": ["High-Coherence", "Low-Coherence", "Noise-Dominant", "Silence Window", "Autopilot"],
+    "transformations": ["Retuning Event", "Reanchor Point"],
+    "uol_operators": ["° (neutralize)", "^ (future)", "^prefix (past)", "↺ (recursion)", "∥ (cross-species)"]
+  },
+  "compatibility": {
+    "frameworks": ["CCT", "Predictive Processing", "Free Energy Principle", "Information Theory"],
+    "domains": ["Neuroscience", "AI Research", "Psychology", "Cognitive Science", "Philosophy of Mind"],
+    "substrates": ["Biological", "Artificial", "Distributed", "Hypothetical"]
+  },
+  "version_history": {
+    "1.0": "Base vocabulary (20 terms)",
+    "1.1": "Extended operations and capacities",
+    "1.2": "UOL planning phase",
+    "1.3": "Full UOL integration with operator composability"
+  },
+  "license": "CC-BY 4.0",
+  "repository": "https://github.com/ompu-eu/CCT",
+  "related_papers": ["Z-014", "Z-001"]
+}
