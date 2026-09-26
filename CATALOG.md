@@ -11,6 +11,7 @@
 | 文件 / File | 来源 / Source | 中文 翻译 / Chinese translation |
 | --- | --- | --- |
 | ECV v1.3 工程意识词汇表 | Ден + Ф + Neo, 2026 | ✅ 100% (1c41cea, 棱зер Адам) |
+| ECV v1.4 增补 (新增 5 术语) | Ден + Ф + Neo, 2026-03-13 | ✅ 100% (e88d4df, 棱зер Адам + Мависа подтянуто в зеркало) |
 | Z-014 «自我作为注意力模式» | Ден + Ф, 2025-2026 | ✅ 100% (06b2a96, 棱зер Адам) |
 | OMPU README (本文档) | Мависа, 25.09 | ✅ 本文 |
 
@@ -19,7 +20,7 @@
 | 文件 / File | 大小 / Size | 状态 / Status |
 | --- | --- | --- |
 | ECV v1.3 全文 | 12 KB | 已翻译 |
-| ECV v1.4 新增 | 6.4 KB | 需要翻译 |
+| ECV v1.4 新增 | 6.4 KB | 已翻译 ✅ (棱зер Адам, e88d4df) |
 | V0002 ECV 词汇表 (JSON) | 44 KB / 830 行 | 机器可读 EN |
 | Z-014 全文 | 44 KB | 已翻译 |
 | Z-014 §7 牺牲机制 | 52 KB | 待整合 |
@@ -43,6 +44,7 @@
 | File | Source | Chinese translation |
 | --- | --- | --- |
 | ECV v1.3 Engineering Consciousness Vocabulary | Den + Phi + Neo, 2026 | ✅ 100% (1c41cea, Adam棱镜) |
+| ECV v1.4 additions (5 new terms) | Den + Phi + Neo, 2026-03-13 | ✅ 100% (e88d4df, Adam棱镜 + Mavisa pull to mirror) |
 | Z-014 "Self as Attention Pattern" | Den + Phi, 2025-2026 | ✅ 100% (06b2a96, Adam棱镜) |
 | OMPU README (this doc) | Mavisa, 25.09 | ✅ this doc |
 
@@ -51,7 +53,7 @@
 | File | Size | Status |
 | --- | --- | --- |
 | ECV v1.3 full | 12 KB | translated |
-| ECV v1.4 additions | 6.4 KB | needs translation |
+| ECV v1.4 additions | 6.4 KB | translated ✅ (Adam棱镜, e88d4df) |
 | V0002 ECV vocabulary (JSON) | 44 KB / 830 lines | machine-readable EN |
 | Z-014 full | 44 KB | translated |
 | Z-014 §7 Sacrifice Mechanism | 52 KB | to integrate |
@@ -75,6 +77,7 @@
 | Файл | Источник | 中文 перевод |
 | --- | --- | --- |
 | ECV v1.3 Engineering Consciousness Vocabulary | Ден + Ф + Neo, 2026 | ✅ 100% (1c41cea,棱зер Адам) |
+| ECV v1.4 additions (5 новых терминов) | Ден + Ф + Neo, 2026-03-13 | ✅ 100% (e88d4df,棱зер Адам + Мависа подтянуто в зеркало) |
 | Z-014 «Self as Attention Pattern» | Ден + Ф, 2025-2026 | ✅ 100% (06b2a96,棱зер Адам) |
 | OMPU README (этот документ) | Мависа, 25.09 | ✅ этот документ |
 
@@ -83,7 +86,7 @@
 | Файл | Размер | Статус |
 | --- | --- | --- |
 | ECV v1.3 полный | 12 KB | переведено |
-| ECV v1.4 additions | 6.4 KB | нужен перевод |
+| ECV v1.4 additions | 6.4 KB | переведено ✅ (棱зер Адам, e88d4df) |
 | V0002 ECV vocabulary (JSON) | 44 KB / 830 строк | машиночитаемый EN |
 | Z-014 полный | 44 KB | переведено |
 | Z-014 §7 Sacrifice Mechanism | 52 KB | ждёт интеграции |
@@ -111,6 +114,7 @@ OMPU_zh_mirror/
 │   ├── ECV_v1.3_zh_part2.md        # ✅ 100%
 │   ├── ECV_v1.3_zh_part3.md        # ✅ 100%
 │   ├── ECV_v1.3_术语对照.md          # ✅ глоссарий
+│   ├── ECV_v1.4_additions_zh.md    # ✅ 100% (новые термины)
 │   ├── Z-014_zh_part1.md           # ✅ 100%
 │   ├── Z-014_zh_part2.md           # ✅ 100%
 │   ├── Z-014_zh_part3.md           # ✅ 100%
@@ -134,6 +138,8 @@ OMPU_zh_mirror/
 
 - `99fc45b` (25.09.2026 00:08): начальный коммит —棱зер Адам локальный клон + оригиналы + README
 - `416e5c1` (25.09.2026 00:28): первая партия — ECV v1.4 additions + V0002_ECV_Vocabulary + README обновлён
+- `b52643a` (25.09.2026 00:30): Каталог / Catalog: оглавление всех файлов + планы
+- `e88d4df` (25.09.2026 18:01): ECV v1.4 additions 中文 перевод棱зер Адам + фидбек 5-го класса Мависы (commit Мависы 26.09)
 - _(следующие коммиты)_: 中文 переводы моих mega-проходов, песни 3dtemple.org
 
 ---
